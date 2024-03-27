@@ -3,9 +3,10 @@
 
 This machine-learning model is intended to detect Depression, anxiety, and suicidal thoughts using textual data. It uses natural language processing (NLP) techniques and machine learning algorithms to classify input text into one of three categories: depression, anxiety, or suicidal tendencies. We manually acquired our dataset from Reddit, Sanvello, Twitter, Happify, and Facebook, which included posts from people suffering from mental disorders. Some records are in the Egyptian dialect of Arabic, while others are in English, which we translated and converted to Egyptian Arabic. It contains 1800 records, including 600 for depression, 600 for anxiety, and 600 for suicidal tendencies.
 
+
 ## Table of Contents
 
-- [Introduction](#introduction)
+  - [Introduction](#introduction)
 
   - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
   - [Pre-processing](#pre-processing)
