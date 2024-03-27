@@ -3,26 +3,24 @@
 
 This machine-learning model is intended to detect Depression, anxiety, and suicidal thoughts using textual data. It uses natural language processing (NLP) techniques and machine learning algorithms to classify input text into one of three categories: depression, anxiety, or suicidal tendencies. We manually acquired our dataset from Reddit, Sanvello, Twitter, Happify, and Facebook, which included posts from people suffering from mental disorders. Some records are in the Egyptian dialect of Arabic, while others are in English, which we translated and converted to Egyptian Arabic. It contains 1800 records, including 600 for depression, 600 for anxiety, and 600 for suicidal tendencies.
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 
-  - [Methodology](#Methodology)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Pre-processing](#pre-processing)
-- [Feature Engineering](#feature-engineering)
-- [Model Building](#model-building)
-- [Evaluation](#evaluation)
-- [Prediction](#prediction)
-- [Model Saving](#model-saving)
+  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  - [Pre-processing](#pre-processing)
+  - [Feature Engineering](#feature-engineering)
+  - [Model Building](#model-building)
+  - [Evaluation](#evaluation)
+  - [Prediction](#prediction)
+  - [Model Saving](#model-saving)
 
 ## Methodology
-### Exploratory Data Analysis (EDA)
+  ### Exploratory Data Analysis (EDA)
 
 The model includes an initial exploratory data analysis (EDA) phase to understand the dataset's characteristics, such as data distribution, missing values, and data insights.
 
-### Pre-processing
+  ### Pre-processing
 
 The textual data undergoes several pre-processing steps, including:
 - HTML tag removal
@@ -36,7 +34,7 @@ The textual data undergoes several pre-processing steps, including:
 
 Feature engineering involves creating bag-of-words (BOW), TF-IDF, and Word2Vec representations of the text data to extract meaningful features for model training.
 
-### Model Building
+  ### Model Building
 
 The model utilizes various machine learning algorithms, including:
 - K Nearest Neighbors
@@ -48,15 +46,15 @@ The model utilizes various machine learning algorithms, including:
 
 Models are trained using both BOW, TF-IDF, and Word2Vec representations to compare performance across different feature extraction techniques.
 
-### Evaluation
+  ### Evaluation
 
 Model performance is evaluated using metrics such as accuracy, ROC-AUC, and classification reports. Cross-validation is employed to ensure robust evaluation.
 
-### Prediction
+  ### Prediction
 
 The model provides predictions for input text data, categorizing it into depression, anxiety, suicidal tendencies, or other mental health categories based on learned patterns from the training data.
 
-### Model Saving
+  ### Model Saving
 
 Trained models are saved using joblib and pickle libraries for future use or integration into other applications.
 
